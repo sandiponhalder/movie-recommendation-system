@@ -2,8 +2,7 @@ import streamlit as st
 import httpx
 import urllib.parse
 
-API_BASE = "http://localhost:8000"   
-
+API_BASE = "https://movie-recommendation-system-1-23re.onrender.com" or "http://localhost:8000" 
 st.set_page_config(
     page_title="CineMatch",
     page_icon="🎬",
